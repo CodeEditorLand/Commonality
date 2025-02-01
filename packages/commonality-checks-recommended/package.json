@@ -27,20 +27,20 @@
   },
   "devDependencies": {
     "@commonalityco/config-tsconfig": "workspace:*",
-    "@types/lodash-es": "^4.14.198",
+    "@types/lodash-es": "^4.17.12",
     "@types/mock-fs": "^4.13.4",
-    "@types/semver": "^7.5.6",
+    "@types/semver": "^7.5.8",
     "@types/validate-npm-package-name": "^4.0.2",
     "commonality": "workspace:*",
     "eslint-config-commonality": "workspace:*",
-    "mock-fs": "^5.2.0",
-    "tsup": "^8.0.1",
-    "typescript": "^5.2.2"
+    "mock-fs": "^5.4.1",
+    "tsup": "^8.3.6",
+    "typescript": "^5.7.3"
   },
   "dependencies": {
     "lodash-es": "^4.17.21",
-    "semver": "^7.5.4",
-    "validate-npm-package-name": "^5.0.0"
+    "semver": "^7.7.0",
+    "validate-npm-package-name": "^6.0.0"
   },
   "repository": {
     "type": "git",

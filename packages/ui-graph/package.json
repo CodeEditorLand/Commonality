@@ -25,35 +25,35 @@
     "@commonalityco/types": "workspace:*",
     "@commonalityco/utils-core": "workspace:*",
     "@commonalityco/utils-package": "workspace:*",
-    "@floating-ui/react": "^0.26.3",
-    "@types/crypto-js": "^4.2.1",
-    "@types/cytoscape": "^3.19.16",
+    "@floating-ui/react": "^0.27.3",
+    "@types/crypto-js": "^4.2.2",
+    "@types/cytoscape": "^3.21.9",
     "@types/cytoscape-dagre": "^2.3.3",
     "@types/cytoscape-popper": "^2.0.4",
-    "@types/lodash-es": "^4.14.198",
-    "@types/react": "^18.2.22",
-    "@types/react-dom": "^18.2.18",
-    "cytoscape": "^3.26.0",
+    "@types/lodash-es": "^4.17.12",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "cytoscape": "^3.31.0",
     "eslint-config-commonality": "workspace:*",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "typescript": "^5.2.2",
-    "vitest": "^0.34.6"
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.4"
   },
   "peerDependencies": {
     "@commonalityco/utils-core": "workspace:*",
     "@commonalityco/utils-package": "*",
-    "react": ">=18",
-    "react-dom": ">=18"
+    "react": ">=19",
+    "react-dom": ">=19"
   },
   "dependencies": {
-    "@xstate/react": "^3.2.2",
+    "@xstate/react": "^5.0.2",
     "crypto-js": "^4.2.0",
     "cytoscape-dagre": "^2.5.0",
-    "cytoscape-popper": "^2.0.0",
+    "cytoscape-popper": "^4.0.1",
     "localforage": "^1.10.0",
     "lodash-es": "^4.17.21",
-    "xstate": "^4.38.2"
+    "xstate": "^5.19.2"
   },
   "repository": {
     "type": "git",
