@@ -1,22 +1,22 @@
 {
-  "name": "@commonalityco/config-tsconfig",
-  "description": "Standard TypeScript configuration for Commonality projects",
-  "version": "0.0.12",
-  "private": true,
-  "devDependencies": {
-    "typescript": "^5.7.3"
-  },
-  "files": [
-    "base.json",
-    "node.json",
-    "react-app.json",
-    "react-library.json",
-    "next.json"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/commonalityco/commonality",
-    "directory": "tooling/config-tsconfig"
-  },
-  "scripts": {}
+	"name": "@commonalityco/config-tsconfig",
+	"version": "0.0.12",
+	"private": true,
+	"description": "Standard TypeScript configuration for Commonality projects",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/commonalityco/commonality",
+		"directory": "tooling/config-tsconfig"
+	},
+	"files": [
+		"base.json",
+		"node.json",
+		"react-app.json",
+		"react-library.json",
+		"next.json"
+	],
+	"scripts": {},
+	"devDependencies": {
+		"typescript": "^5.7.3"
+	}
 }

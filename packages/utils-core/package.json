@@ -1,46 +1,46 @@
 {
-  "name": "@commonalityco/utils-core",
-  "version": "0.2.38",
-  "type": "module",
-  "description": "Contains the common constants used in all Commonality applications and packages",
-  "sideEffects": false,
-  "publishConfig": {
-    "access": "public"
-  },
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
-  "exports": {
-    ".": "./dist/index.js",
-    "./ui": "./dist/ui/index.js"
-  },
-  "license": "MIT",
-  "scripts": {
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
-    "build": "tsc --build",
-    "test": "vitest",
-    "type-check": "tsc --noEmit",
-    "dev": "tsc --watch"
-  },
-  "devDependencies": {
-    "@commonalityco/config-tsconfig": "workspace:*",
-    "@types/react": "^19.0.8",
-    "eslint-config-commonality": "workspace:*",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "typescript": "^5.7.3"
-  },
-  "peerDependencies": {
-    "react": ">=19",
-    "react-dom": ">=19"
-  },
-  "dependencies": {
-    "@sindresorhus/slugify": "^2.2.1",
-    "zod": "^3.24.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/commonalityco/commonality",
-    "directory": "packages/utils-core"
-  }
+	"name": "@commonalityco/utils-core",
+	"version": "0.2.38",
+	"description": "Contains the common constants used in all Commonality applications and packages",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/commonalityco/commonality",
+		"directory": "packages/utils-core"
+	},
+	"license": "MIT",
+	"sideEffects": false,
+	"type": "module",
+	"exports": {
+		".": "./dist/index.js",
+		"./ui": "./dist/ui/index.js"
+	},
+	"main": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"scripts": {
+		"build": "tsc --build",
+		"dev": "tsc --watch",
+		"lint": "eslint .",
+		"lint:fix": "eslint . --fix",
+		"test": "vitest",
+		"type-check": "tsc --noEmit"
+	},
+	"dependencies": {
+		"@sindresorhus/slugify": "^2.2.1",
+		"zod": "^3.24.1"
+	},
+	"devDependencies": {
+		"@commonalityco/config-tsconfig": "workspace:*",
+		"@types/react": "^19.0.8",
+		"eslint-config-commonality": "workspace:*",
+		"react": "^19.0.0",
+		"react-dom": "^19.0.0",
+		"typescript": "^5.7.3"
+	},
+	"peerDependencies": {
+		"react": ">=19",
+		"react-dom": ">=19"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
 }

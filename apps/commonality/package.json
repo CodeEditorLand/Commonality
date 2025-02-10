@@ -1,104 +1,104 @@
 {
-  "name": "commonality",
-  "version": "0.2.47",
-  "bin": {
-    "commonality": "./bin.js"
-  },
-  "type": "module",
-  "engines": {
-    "node": ">=18.17.0"
-  },
-  "files": [
-    "dist",
-    "bin.js"
-  ],
-  "types": "./dist/utilities/index.d.ts",
-  "main": "./dist/utilities/index.cjs",
-  "exports": {
-    ".": {
-      "import": "./dist/utilities/index.js",
-      "require": "./dist/utilities/index.cjs"
-    }
-  },
-  "description": "Infinitely scalable front-end ecosystems",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/commonalityco/commonality",
-    "directory": "apps/commonality"
-  },
-  "bugs": "https://github.com/commonalityco/commonalityco/issues",
-  "homepage": "https://commonality.co",
-  "license": "MPL-2.0",
-  "publishConfig": {
-    "access": "public"
-  },
-  "scripts": {
-    "build:cli": "tsup-node --config tsup.config.cli.ts",
-    "build:utilities": "tsup-node --config tsup.config.utilities.ts",
-    "build": "npm-run-all clean build:*",
-    "dev:cli": "tsup-node --config tsup.config.cli.ts --watch",
-    "dev:utilities": "tsup-node --config tsup.config.utilities.ts --watch",
-    "clean": "rimraf ./dist",
-    "dev": "pnpm run clean && npm-run-all --parallel dev:*",
-    "postbuild": "tsc --emitDeclarationOnly --declaration",
-    "lint": "eslint ./src --fix",
-    "test": "vitest",
-    "test:integration": "vitest --config=vite.integration.config.ts",
-    "type-check": "tsc --noEmit",
-    "lint:fix": "eslint . --fix"
-  },
-  "dependencies": {
-    "@antfu/install-pkg": "^1.0.0",
-    "@commonalityco/studio": "0.2.57",
-    "@sindresorhus/slugify": "^2.2.1",
-    "chalk": "^5.4.1",
-    "commander": "^13.1.0",
-    "detect-indent": "^7.0.1",
-    "find-up": "^7.0.0",
-    "fs-extra": "^11.3.0",
-    "get-port": "^7.1.0",
-    "globby": "^14.0.2",
-    "jest-diff": "^29.7.0",
-    "jiti": "^2.4.2",
-    "local-pkg": "^1.0.0",
-    "lodash-es": "^4.17.21",
-    "minimatch": "^10.0.1",
-    "ora": "^8.1.1",
-    "pathe": "^2.0.2",
-    "prompts": "^2.4.2",
-    "std-env": "^3.8.0",
-    "strip-ansi": "^7.1.0",
-    "update-notifier": "^7.3.1",
-    "wait-on": "^8.0.2",
-    "yaml": "^2.7.0",
-    "zod": "^3.24.1"
-  },
-  "devDependencies": {
-    "@commonalityco/config-tsconfig": "workspace:*",
-    "@commonalityco/data-codeowners": "workspace:*",
-    "@commonalityco/data-constraints": "workspace:*",
-    "@commonalityco/data-packages": "workspace:*",
-    "@commonalityco/data-project": "workspace:*",
-    "@commonalityco/data-tags": "workspace:*",
-    "@commonalityco/types": "workspace:*",
-    "@commonalityco/utils-conformance": "workspace:*",
-    "@commonalityco/utils-core": "workspace:*",
-    "@commonalityco/utils-file": "workspace:*",
-    "@commonalityco/utils-onboarding": "workspace:*",
-    "@swc/core": "^1.10.12",
-    "@types/fs-extra": "^11.0.4",
-    "@types/lodash-es": "^4.17.12",
-    "@types/mock-fs": "^4.13.4",
-    "@types/node": "^22.13.0",
-    "@types/prompts": "^2.4.9",
-    "@types/wait-on": "^5.3.4",
-    "eslint-config-commonality": "workspace:*",
-    "execa": "^9.5.2",
-    "mock-fs": "^5.4.1",
-    "npm-run-all": "^4.1.5",
-    "rimraf": "^6.0.1",
-    "tsup": "^8.3.6",
-    "typescript": "^5.7.3",
-    "vitest": "^3.0.4"
-  }
+	"name": "commonality",
+	"version": "0.2.47",
+	"description": "Infinitely scalable front-end ecosystems",
+	"homepage": "https://commonality.co",
+	"bugs": "https://github.com/commonalityco/commonalityco/issues",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/commonalityco/commonality",
+		"directory": "apps/commonality"
+	},
+	"license": "MPL-2.0",
+	"type": "module",
+	"exports": {
+		".": {
+			"import": "./dist/utilities/index.js",
+			"require": "./dist/utilities/index.cjs"
+		}
+	},
+	"main": "./dist/utilities/index.cjs",
+	"types": "./dist/utilities/index.d.ts",
+	"bin": {
+		"commonality": "./bin.js"
+	},
+	"files": [
+		"dist",
+		"bin.js"
+	],
+	"scripts": {
+		"build:cli": "tsup-node --config tsup.config.cli.ts",
+		"build:utilities": "tsup-node --config tsup.config.utilities.ts",
+		"build": "npm-run-all clean build:*",
+		"postbuild": "tsc --emitDeclarationOnly --declaration",
+		"dev:cli": "tsup-node --config tsup.config.cli.ts --watch",
+		"dev:utilities": "tsup-node --config tsup.config.utilities.ts --watch",
+		"dev": "pnpm run clean && npm-run-all --parallel dev:*",
+		"clean": "rimraf ./dist",
+		"lint": "eslint ./src --fix",
+		"lint:fix": "eslint . --fix",
+		"test": "vitest",
+		"test:integration": "vitest --config=vite.integration.config.ts",
+		"type-check": "tsc --noEmit"
+	},
+	"dependencies": {
+		"@antfu/install-pkg": "^1.0.0",
+		"@commonalityco/studio": "0.2.57",
+		"@sindresorhus/slugify": "^2.2.1",
+		"chalk": "^5.4.1",
+		"commander": "^13.1.0",
+		"detect-indent": "^7.0.1",
+		"find-up": "^7.0.0",
+		"fs-extra": "^11.3.0",
+		"get-port": "^7.1.0",
+		"globby": "^14.1.0",
+		"jest-diff": "^29.7.0",
+		"jiti": "^2.4.2",
+		"local-pkg": "^1.0.0",
+		"lodash-es": "^4.17.21",
+		"minimatch": "^10.0.1",
+		"ora": "^8.2.0",
+		"pathe": "^2.0.2",
+		"prompts": "^2.4.2",
+		"std-env": "^3.8.0",
+		"strip-ansi": "^7.1.0",
+		"update-notifier": "^7.3.1",
+		"wait-on": "^8.0.2",
+		"yaml": "^2.7.0",
+		"zod": "^3.24.1"
+	},
+	"devDependencies": {
+		"@commonalityco/config-tsconfig": "workspace:*",
+		"@commonalityco/data-codeowners": "workspace:*",
+		"@commonalityco/data-constraints": "workspace:*",
+		"@commonalityco/data-packages": "workspace:*",
+		"@commonalityco/data-project": "workspace:*",
+		"@commonalityco/data-tags": "workspace:*",
+		"@commonalityco/types": "workspace:*",
+		"@commonalityco/utils-conformance": "workspace:*",
+		"@commonalityco/utils-core": "workspace:*",
+		"@commonalityco/utils-file": "workspace:*",
+		"@commonalityco/utils-onboarding": "workspace:*",
+		"@swc/core": "^1.10.15",
+		"@types/fs-extra": "^11.0.4",
+		"@types/lodash-es": "^4.17.12",
+		"@types/mock-fs": "^4.13.4",
+		"@types/node": "^22.13.1",
+		"@types/prompts": "^2.4.9",
+		"@types/wait-on": "^5.3.4",
+		"eslint-config-commonality": "workspace:*",
+		"execa": "^9.5.2",
+		"mock-fs": "^5.5.0",
+		"npm-run-all": "^4.1.5",
+		"rimraf": "^6.0.1",
+		"tsup": "^8.3.6",
+		"typescript": "^5.7.3",
+		"vitest": "^3.0.5"
+	},
+	"engines": {
+		"node": ">=18.17.0"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
 }

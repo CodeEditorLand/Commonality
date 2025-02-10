@@ -1,61 +1,61 @@
 {
-  "name": "@commonalityco/ui-core",
-  "description": "Presentational components used to build Commonality applications",
-  "type": "module",
-  "version": "0.2.39",
-  "publishConfig": {
-    "access": "public"
-  },
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
-  "exports": {
-    ".": "./dist/index.js"
-  },
-  "sideEffects": false,
-  "dependencies": {
-    "@radix-ui/react-slot": "^1.1.1",
-    "class-variance-authority": "^0.7.1",
-    "tailwind-merge": "^3.0.1"
-  },
-  "devDependencies": {
-    "@commonalityco/config-tailwind": "workspace:*",
-    "@commonalityco/config-tsconfig": "workspace:*",
-    "@commonalityco/ui-design-system": "workspace:*",
-    "@commonalityco/utils-core": "workspace:*",
-    "@types/react": "^19.0.8",
-    "eslint-config-commonality": "workspace:*",
-    "lucide-react": "^0.317.0",
-    "next": "15.1.6",
-    "next-themes": "^0.2.1",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+	"name": "@commonalityco/ui-core",
+	"version": "0.2.39",
+	"description": "Presentational components used to build Commonality applications",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/commonalityco/commonality",
+		"directory": "packages/ui-core"
+	},
+	"license": "MIT",
+	"sideEffects": false,
+	"type": "module",
+	"exports": {
+		".": "./dist/index.js"
+	},
+	"main": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"scripts": {
+		"build": "tsc --build",
+		"dev": "tsc --watch",
+		"lint": "eslint .",
+		"lint:fix": "eslint . --fix",
+		"test": "vitest",
+		"type-check": "tsc --noEmit"
+	},
+	"dependencies": {
+		"@radix-ui/react-slot": "^1.1.2",
+		"class-variance-authority": "^0.7.1",
+		"tailwind-merge": "^3.0.1"
+	},
+	"devDependencies": {
+		"@commonalityco/config-tailwind": "workspace:*",
+		"@commonalityco/config-tsconfig": "workspace:*",
+		"@commonalityco/ui-design-system": "workspace:*",
+		"@commonalityco/utils-core": "workspace:*",
+		"@types/react": "^19.0.8",
+		"eslint-config-commonality": "workspace:*",
+		"lucide-react": "^0.317.0",
+		"next": "15.1.6",
+		"next-themes": "^0.2.1",
+		"react": "^19.0.0",
+		"react-dom": "^19.0.0",
 		"tailwindcss": "3.4.17",
-    "typescript": "^5.7.3"
-  },
-  "license": "MIT",
-  "peerDependencies": {
-    "@commonalityco/ui-design-system": "*",
-    "@commonalityco/utils-core": "*",
-    "lucide-react": "^0.x",
-    "next": "15.1.6",
-    "next-themes": "^0.x",
-    "react": ">=19",
-    "react-dom": ">=19"
-  },
-  "scripts": {
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
-    "build": "tsc --build",
-    "dev": "tsc --watch",
-    "test": "vitest",
-    "type-check": "tsc --noEmit"
-  },
-  "engines": {
-    "node": ">=16"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/commonalityco/commonality",
-    "directory": "packages/ui-core"
-  }
+		"typescript": "^5.7.3"
+	},
+	"peerDependencies": {
+		"@commonalityco/ui-design-system": "*",
+		"@commonalityco/utils-core": "*",
+		"lucide-react": "^0.x",
+		"next": "15.1.6",
+		"next-themes": "^0.x",
+		"react": ">=19",
+		"react-dom": ">=19"
+	},
+	"engines": {
+		"node": ">=16"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
 }

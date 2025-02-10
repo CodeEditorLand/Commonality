@@ -1,41 +1,41 @@
 {
-  "name": "@commonalityco/types",
-  "description": "Shared types for use across all Commonality projects",
-  "version": "0.2.37",
-  "type": "module",
-  "publishConfig": {
-    "access": "public",
-    "main": "./dist/index.js",
-    "types": "./dist/index.d.ts",
-    "exports": {
-      ".": "./dist/index.js"
-    }
-  },
-  "types": "./src/index.ts",
-  "main": "./src/index.ts",
-  "license": "MIT",
-  "scripts": {
-    "lint": "eslint .",
-    "type-check": "tsc --noEmit",
-    "lint:fix": "eslint . --fix",
-    "build": "tsc --build",
-    "dev": "tsc --watch"
-  },
-  "peerDependencies": {
-    "@commonalityco/utils-core": "*"
-  },
-  "devDependencies": {
-    "@commonalityco/config-tsconfig": "workspace:*",
-    "@commonalityco/utils-core": "workspace:*",
-    "eslint-config-commonality": "workspace:*",
-    "typescript": "^5.7.3"
-  },
-  "exports": {
-    ".": "./src/index.ts"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/commonalityco/commonality",
-    "directory": "packages/types"
-  }
+	"name": "@commonalityco/types",
+	"version": "0.2.37",
+	"description": "Shared types for use across all Commonality projects",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/commonalityco/commonality",
+		"directory": "packages/types"
+	},
+	"license": "MIT",
+	"type": "module",
+	"exports": {
+		".": "./src/index.ts"
+	},
+	"main": "./src/index.ts",
+	"types": "./src/index.ts",
+	"scripts": {
+		"build": "tsc --build",
+		"dev": "tsc --watch",
+		"lint": "eslint .",
+		"lint:fix": "eslint . --fix",
+		"type-check": "tsc --noEmit"
+	},
+	"devDependencies": {
+		"@commonalityco/config-tsconfig": "workspace:*",
+		"@commonalityco/utils-core": "workspace:*",
+		"eslint-config-commonality": "workspace:*",
+		"typescript": "^5.7.3"
+	},
+	"peerDependencies": {
+		"@commonalityco/utils-core": "*"
+	},
+	"publishConfig": {
+		"access": "public",
+		"exports": {
+			".": "./dist/index.js"
+		},
+		"main": "./dist/index.js",
+		"types": "./dist/index.d.ts"
+	}
 }

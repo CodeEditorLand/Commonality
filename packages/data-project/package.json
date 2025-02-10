@@ -1,53 +1,53 @@
 {
-  "name": "@commonalityco/data-project",
-  "description": "Utilities for collecting metadata on the current Commonality project",
-  "version": "0.2.40",
-  "publishConfig": {
-    "access": "public",
-    "main": "./dist/index.js",
-    "types": "./dist/index.d.ts",
-    "exports": {
-      ".": "./dist/index.js"
-    }
-  },
-  "type": "module",
-  "types": "./src/index.ts",
-  "exports": {
-    ".": "./src/index.ts",
-    "./*": "./dist/*.js"
-  },
-  "main": "./src/index.ts",
-  "license": "MIT",
-  "scripts": {
-    "build": "tsc --build",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
-    "test": "vitest",
-    "type-check": "tsc --noEmit",
-    "dev": "tsc --watch"
-  },
-  "devDependencies": {
-    "@commonalityco/config-tsconfig": "workspace:*",
-    "@commonalityco/types": "workspace:*",
-    "@types/fs-extra": "^11.0.4",
-    "@types/mock-fs": "^4.13.4",
-    "@types/node": "^22.13.0",
-    "eslint-config-commonality": "workspace:*",
-    "mock-fs": "^5.4.1",
-    "typescript": "^5.7.3"
-  },
-  "dependencies": {
-    "@commonalityco/utils-core": "workspace:*",
-    "find-up": "^7.0.0",
-    "fs-extra": "^11.3.0",
-    "globby": "^14.0.2",
-    "jiti": "^2.4.2",
-    "yaml": "^2.7.0",
-    "zod": "^3.24.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/commonalityco/commonality",
-    "directory": "packages/data-project"
-  }
+	"name": "@commonalityco/data-project",
+	"version": "0.2.40",
+	"description": "Utilities for collecting metadata on the current Commonality project",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/commonalityco/commonality",
+		"directory": "packages/data-project"
+	},
+	"license": "MIT",
+	"type": "module",
+	"exports": {
+		".": "./src/index.ts",
+		"./*": "./dist/*.js"
+	},
+	"main": "./src/index.ts",
+	"types": "./src/index.ts",
+	"scripts": {
+		"build": "tsc --build",
+		"dev": "tsc --watch",
+		"lint": "eslint .",
+		"lint:fix": "eslint . --fix",
+		"test": "vitest",
+		"type-check": "tsc --noEmit"
+	},
+	"dependencies": {
+		"@commonalityco/utils-core": "workspace:*",
+		"find-up": "^7.0.0",
+		"fs-extra": "^11.3.0",
+		"globby": "^14.1.0",
+		"jiti": "^2.4.2",
+		"yaml": "^2.7.0",
+		"zod": "^3.24.1"
+	},
+	"devDependencies": {
+		"@commonalityco/config-tsconfig": "workspace:*",
+		"@commonalityco/types": "workspace:*",
+		"@types/fs-extra": "^11.0.4",
+		"@types/mock-fs": "^4.13.4",
+		"@types/node": "^22.13.1",
+		"eslint-config-commonality": "workspace:*",
+		"mock-fs": "^5.5.0",
+		"typescript": "^5.7.3"
+	},
+	"publishConfig": {
+		"access": "public",
+		"exports": {
+			".": "./dist/index.js"
+		},
+		"main": "./dist/index.js",
+		"types": "./dist/index.d.ts"
+	}
 }

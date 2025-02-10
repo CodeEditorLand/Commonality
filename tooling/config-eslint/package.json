@@ -1,32 +1,32 @@
 {
-  "name": "eslint-config-commonality",
-  "description": "The Commonality CLI's ESLint configuration",
-  "version": "0.0.12",
-  "publishConfig": {
-    "access": "public"
-  },
-  "author": {
-    "name": "Alec Ortega",
-    "email": "alec@commonality.co"
-  },
-  "license": "MIT",
-  "main": ".eslintrc.js",
-  "engines": {
-    "node": ">=14.6"
-  },
-  "dependencies": {
-    "eslint-plugin-import": "^2.31.0",
-    "eslint-plugin-n": "^17.15.1",
-    "eslint-plugin-unicorn": "^56.0.1",
-    "eslint-plugin-unused-imports": "^4.1.4"
-  },
-  "devDependencies": {
-    "typescript": "^5.7.3"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/commonalityco/commonality",
-    "directory": "tooling/config-eslint"
-  },
-  "scripts": {}
+	"name": "eslint-config-commonality",
+	"version": "0.0.12",
+	"description": "The Commonality CLI's ESLint configuration",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/commonalityco/commonality",
+		"directory": "tooling/config-eslint"
+	},
+	"license": "MIT",
+	"author": {
+		"name": "Alec Ortega",
+		"email": "alec@commonality.co"
+	},
+	"main": ".eslintrc.js",
+	"scripts": {},
+	"dependencies": {
+		"eslint-plugin-import": "^2.31.0",
+		"eslint-plugin-n": "^17.15.1",
+		"eslint-plugin-unicorn": "^56.0.1",
+		"eslint-plugin-unused-imports": "^4.1.4"
+	},
+	"devDependencies": {
+		"typescript": "^5.7.3"
+	},
+	"engines": {
+		"node": ">=14.6"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
 }
