@@ -15,7 +15,7 @@ Run the command below in an existing project to set up Commonality in seconds
 npx commonality init
 ```
 
-## Features
+## Feature
 
 Every feature in Commonality is designed to be adopted incrementally. Start with a single package and scale it to an entire organization.
 

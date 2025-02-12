@@ -23,17 +23,17 @@
 		"type-check": "tsc --noEmit"
 	},
 	"dependencies": {
-		"fast-glob": "^3.3.3",
-		"fs-extra": "^11.3.0",
-		"minimatch": "^10.0.1"
+		"fast-glob": "3.3.3",
+		"fs-extra": "11.3.0",
+		"minimatch": "10.0.1"
 	},
 	"devDependencies": {
 		"@commonalityco/config-tsconfig": "workspace:*",
 		"@commonalityco/types": "workspace:*",
-		"@types/fs-extra": "^11.0.4",
-		"@types/node": "^22.13.1",
+		"@types/fs-extra": "11.0.4",
+		"@types/node": "22.13.1",
 		"eslint-config-commonality": "workspace:*",
-		"typescript": "^5.7.3"
+		"typescript": "5.7.3"
 	},
 	"publishConfig": {
 		"access": "public",

@@ -25,24 +25,24 @@
 		"type-check": "tsc --noEmit"
 	},
 	"dependencies": {
-		"@antfu/install-pkg": "^1.0.0",
-		"fs-extra": "^11.3.0",
-		"local-pkg": "^1.0.0",
-		"pathe": "^2.0.2",
-		"prompts": "^2.4.2"
+		"@antfu/install-pkg": "1.0.0",
+		"fs-extra": "11.3.0",
+		"local-pkg": "1.0.0",
+		"pathe": "2.0.3",
+		"prompts": "2.4.2"
 	},
 	"devDependencies": {
 		"@commonalityco/config-tsconfig": "workspace:*",
 		"@commonalityco/utils-file": "workspace:*",
-		"@types/fs-extra": "^11.0.4",
-		"@types/mock-fs": "^4.13.4",
-		"@types/prompts": "^2.4.9",
-		"@types/react": "^19.0.8",
+		"@types/fs-extra": "11.0.4",
+		"@types/mock-fs": "4.13.4",
+		"@types/prompts": "2.4.9",
+		"@types/react": "19.0.8",
 		"eslint-config-commonality": "workspace:*",
-		"mock-fs": "^5.5.0",
-		"react": "^19.0.0",
-		"react-dom": "^19.0.0",
-		"typescript": "^5.7.3"
+		"mock-fs": "5.5.0",
+		"react": "19.0.0",
+		"react-dom": "19.0.0",
+		"typescript": "5.7.3"
 	},
 	"peerDependencies": {
 		"@commonalityco/utils-file": "workspace:*",

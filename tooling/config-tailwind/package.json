@@ -15,15 +15,15 @@
 	"main": "./tailwind.config.js",
 	"scripts": {},
 	"devDependencies": {
-		"@tailwindcss/typography": "^0.5.16",
+		"@tailwindcss/typography": "0.5.16",
 		"tailwindcss": "3.4.17",
-		"tailwindcss-animate": "^1.0.7",
-		"typescript": "^5.7.3"
+		"tailwindcss-animate": "1.0.7",
+		"typescript": "5.7.3"
 	},
 	"peerDependencies": {
-		"@tailwindcss/typography": "^0.5.16",
+		"@tailwindcss/typography": "0.5.16",
 		"tailwindcss": "3.4.17",
-		"tailwindcss-animate": "^1.0.7"
+		"tailwindcss-animate": "1.0.7"
 	},
 	"engines": {
 		"node": ">=14.6"
