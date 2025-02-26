@@ -1,4 +1,4 @@
 {
-  "extends": "@commonalityco/config-tsconfig/react.json",
-  "include": ["./src/**/*.ts", "./src/**/*.tsx"]
+	"extends": "@commonalityco/config-tsconfig/react.json",
+	"include": ["./src/**/*.ts", "./src/**/*.tsx"]
 }

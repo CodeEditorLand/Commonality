@@ -1,8 +1,8 @@
 {
-  "name": "pkg-one",
-  "description": "pkg-one description",
-  "version": "1.0.0",
-  "dependencies": {
-    "pkg-two": "1.0.0"
-  }
+	"name": "pkg-one",
+	"version": "1.0.0",
+	"description": "pkg-one description",
+	"dependencies": {
+		"pkg-two": "1.0.0"
+	}
 }
