@@ -1,5 +1,8 @@
 # @commonalityco/utils-core
-> Contains the common constants used in all Commonality applications and packages
+
+> Contains the common constants used in all Commonality applications and
+> packages
+
 ## Installation
 
 ```sh

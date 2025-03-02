@@ -4,7 +4,10 @@
 
 ### Patch Changes
 
-- 0508b8f: Adds a `workspaces` property to the project configuration file. This will allow you to override your package manager's workspaces. This will also allow integrated monorepos to filter packages without adding a workspaces property to their package manager.
+- 0508b8f: Adds a `workspaces` property to the project configuration file. This
+  will allow you to override your package manager's workspaces. This will also
+  allow integrated monorepos to filter packages without adding a workspaces
+  property to their package manager.
 
 ## 0.2.46
 
@@ -12,7 +15,7 @@
 
 - 4e64f3e: Fixes issue where missing files prevented Studio from starting up
 - Updated dependencies [4e64f3e]
-  - @commonalityco/studio@0.2.45
+    - @commonalityco/studio@0.2.45
 
 ## 0.2.45
 
@@ -20,34 +23,37 @@
 
 - d719a75: Updates logging information for Studio failures
 - Updated dependencies [d719a75]
-  - @commonalityco/studio@0.2.44
+    - @commonalityco/studio@0.2.44
 
 ## 0.2.44
 
 ### Patch Changes
 
-- bbca388: Fix issue where configuration wasn't properly created when users chose not to install checks
+- bbca388: Fix issue where configuration wasn't properly created when users
+  chose not to install checks
 
 ## 0.2.43
 
 ### Patch Changes
 
-- 00fa1ae: Adds better error message when commonality init is run outside a project
+- 00fa1ae: Adds better error message when commonality init is run outside a
+  project
 
 ## 0.2.42
 
 ### Patch Changes
 
 - Updated dependencies [9458463]
-  - @commonalityco/studio@0.2.43
+    - @commonalityco/studio@0.2.43
 
 ## 0.2.41
 
 ### Patch Changes
 
-- 0faea77: Fixes an issue where the repository field check was creating an incorrectly formatted repository field
+- 0faea77: Fixes an issue where the repository field check was creating an
+  incorrectly formatted repository field
 - Updated dependencies [0faea77]
-  - @commonalityco/studio@0.2.42
+    - @commonalityco/studio@0.2.42
 
 ## 0.2.40
 
@@ -61,15 +67,16 @@
 
 - a88e9ba: Removes the tag filter from checks and constraints UI for clarity
 - Updated dependencies [a88e9ba]
-  - @commonalityco/studio@0.2.41
+    - @commonalityco/studio@0.2.41
 
 ## 0.2.38
 
 ### Patch Changes
 
-- b453952: Adds hasTextFile and hasJsonFile utility checks. Adds @commonalityco/studio as a dependency to commonality.
+- b453952: Adds hasTextFile and hasJsonFile utility checks. Adds
+  @commonalityco/studio as a dependency to commonality.
 - Updated dependencies [b453952]
-  - @commonalityco/studio@0.2.40
+    - @commonalityco/studio@0.2.40
 
 ## 0.2.37
 
@@ -94,7 +101,8 @@
 
 ### Patch Changes
 
-- 70ac615: Fixes an issue where you could not exit out of the studio process if the Commonality Studio port never becomes available
+- 70ac615: Fixes an issue where you could not exit out of the studio process if
+  the Commonality Studio port never becomes available
 
 ## 0.2.30
 
@@ -197,14 +205,14 @@
 ### Patch Changes
 
 - e4075d7: Update publish messaging
-  - @commonalityco/studio@0.2.13
+    - @commonalityco/studio@0.2.13
 
 ## 0.1.9
 
 ### Patch Changes
 
 - a7691a8: Add skeleton and dep updates
-  - @commonalityco/studio@0.2.10
+    - @commonalityco/studio@0.2.10
 
 ## 0.1.8
 
@@ -212,7 +220,7 @@
 
 - 0457822: add link command
 - Updated dependencies [0457822]
-  - @commonalityco/studio@0.2.9
+    - @commonalityco/studio@0.2.9
 
 ## 0.1.7
 
@@ -220,7 +228,7 @@
 
 - a4e018c: Bundle CLI
 - Updated dependencies [a4e018c]
-  - @commonalityco/studio@0.2.8
+    - @commonalityco/studio@0.2.8
 
 ## 0.1.6
 
@@ -228,14 +236,14 @@
 
 - ee3504f: Distribute studio /dist
 - Updated dependencies [ee3504f]
-  - @commonalityco/data-codeowners@0.0.10
-  - @commonalityco/data-violations@0.0.10
-  - @commonalityco/data-documents@0.0.6
-  - @commonalityco/data-packages@0.0.11
-  - @commonalityco/data-project@0.0.5
-  - @commonalityco/utils-core@0.0.5
-  - @commonalityco/data-tags@0.0.6
-  - @commonalityco/studio@0.2.6
+    - @commonalityco/data-codeowners@0.0.10
+    - @commonalityco/data-violations@0.0.10
+    - @commonalityco/data-documents@0.0.6
+    - @commonalityco/data-packages@0.0.11
+    - @commonalityco/data-project@0.0.5
+    - @commonalityco/utils-core@0.0.5
+    - @commonalityco/data-tags@0.0.6
+    - @commonalityco/studio@0.2.6
 
 ## 0.1.5
 
@@ -243,14 +251,14 @@
 
 - dadeafb: Convert to ESM
 - Updated dependencies [dadeafb]
-  - @commonalityco/data-codeowners@0.0.9
-  - @commonalityco/data-documents@0.0.5
-  - @commonalityco/data-packages@0.0.10
-  - @commonalityco/data-project@0.0.4
-  - @commonalityco/data-tags@0.0.5
-  - @commonalityco/data-violations@0.0.9
-  - @commonalityco/studio@0.2.5
-  - @commonalityco/utils-core@0.0.4
+    - @commonalityco/data-codeowners@0.0.9
+    - @commonalityco/data-documents@0.0.5
+    - @commonalityco/data-packages@0.0.10
+    - @commonalityco/data-project@0.0.4
+    - @commonalityco/data-tags@0.0.5
+    - @commonalityco/data-violations@0.0.9
+    - @commonalityco/studio@0.2.5
+    - @commonalityco/utils-core@0.0.4
 
 ## 0.1.4
 
@@ -263,15 +271,15 @@
 ### Patch Changes
 
 - Updated dependencies [b03ab98]
-  - @commonalityco/data-packages@0.0.9
-  - @commonalityco/studio@0.2.3
+    - @commonalityco/data-packages@0.0.9
+    - @commonalityco/studio@0.2.3
 
 ## 0.1.2
 
 ### Patch Changes
 
 - Updated dependencies [597a229]
-  - @commonalityco/studio@0.2.2
+    - @commonalityco/studio@0.2.2
 
 ## 0.1.1
 
@@ -288,7 +296,7 @@
 ### Patch Changes
 
 - Updated dependencies [ed774a4]
-  - @commonalityco/studio@0.2.0
+    - @commonalityco/studio@0.2.0
 
 ## 0.0.27
 
@@ -296,21 +304,21 @@
 
 - fb47c73: update build output
 - Updated dependencies [fb47c73]
-  - @commonalityco/data-codeowners@0.0.8
-  - @commonalityco/data-documents@0.0.4
-  - @commonalityco/data-packages@0.0.8
-  - @commonalityco/data-project@0.0.3
-  - @commonalityco/data-tags@0.0.4
-  - @commonalityco/data-violations@0.0.8
-  - @commonalityco/studio@0.1.15
-  - @commonalityco/utils-core@0.0.3
+    - @commonalityco/data-codeowners@0.0.8
+    - @commonalityco/data-documents@0.0.4
+    - @commonalityco/data-packages@0.0.8
+    - @commonalityco/data-project@0.0.3
+    - @commonalityco/data-tags@0.0.4
+    - @commonalityco/data-violations@0.0.8
+    - @commonalityco/studio@0.1.15
+    - @commonalityco/utils-core@0.0.3
 
 ## 0.0.26
 
 ### Patch Changes
 
 - Updated dependencies [d562884]
-  - @commonalityco/studio@0.1.14
+    - @commonalityco/studio@0.1.14
 
 ## 0.0.25
 
@@ -324,7 +332,7 @@
 
 - 7d2d1da: ignore weird files and point to latest studio
 - Updated dependencies [7d2d1da]
-  - @commonalityco/studio@0.1.13
+    - @commonalityco/studio@0.1.13
 
 ## 0.0.23
 
@@ -332,7 +340,7 @@
 
 - f82e714: "facepalm"
 - Updated dependencies [f82e714]
-  - @commonalityco/studio@0.1.12
+    - @commonalityco/studio@0.1.12
 
 ## 0.0.22
 
@@ -340,7 +348,7 @@
 
 - 77244cc: Ugh
 - Updated dependencies [77244cc]
-  - @commonalityco/studio@0.1.11
+    - @commonalityco/studio@0.1.11
 
 ## 0.0.21
 
@@ -348,7 +356,7 @@
 
 - c8fe893: Remove bundle analyzer from prod deps
 - Updated dependencies [c8fe893]
-  - @commonalityco/studio@0.1.10
+    - @commonalityco/studio@0.1.10
 
 ## 0.0.20
 
@@ -356,7 +364,7 @@
 
 - 24d85da: Remove internal deps from server.js
 - Updated dependencies [24d85da]
-  - @commonalityco/studio@0.1.9
+    - @commonalityco/studio@0.1.9
 
 ## 0.0.19
 
@@ -364,7 +372,7 @@
 
 - d4515ef: prod to dev deps
 - Updated dependencies [d4515ef]
-  - @commonalityco/studio@0.1.8
+    - @commonalityco/studio@0.1.8
 
 ## 0.0.18
 
@@ -372,7 +380,7 @@
 
 - fb9e932: update
 - Updated dependencies [fb9e932]
-  - @commonalityco/studio@0.1.6
+    - @commonalityco/studio@0.1.6
 
 ## 0.0.17
 
@@ -380,7 +388,7 @@
 
 - 94f9a78: Fix build output
 - Updated dependencies [94f9a78]
-  - @commonalityco/studio@0.1.5
+    - @commonalityco/studio@0.1.5
 
 ## 0.0.16
 
@@ -388,9 +396,9 @@
 
 - 3ff8242: Fix build target for CLI
 - Updated dependencies [3ff8242]
-  - @commonalityco/data-documents@0.0.3
-  - @commonalityco/data-tags@0.0.3
-  - @commonalityco/studio@0.1.4
+    - @commonalityco/data-documents@0.0.3
+    - @commonalityco/data-tags@0.0.3
+    - @commonalityco/studio@0.1.4
 
 ## 0.0.15
 
@@ -398,14 +406,14 @@
 
 - da2c556: Initial release
 - Updated dependencies [da2c556]
-  - @commonalityco/studio@0.1.3
-  - @commonalityco/utils-core@0.0.2
-  - @commonalityco/data-codeowners@0.0.7
-  - @commonalityco/data-documents@0.0.2
-  - @commonalityco/data-packages@0.0.7
-  - @commonalityco/data-project@0.0.2
-  - @commonalityco/data-tags@0.0.2
-  - @commonalityco/data-violations@0.0.7
+    - @commonalityco/studio@0.1.3
+    - @commonalityco/utils-core@0.0.2
+    - @commonalityco/data-codeowners@0.0.7
+    - @commonalityco/data-documents@0.0.2
+    - @commonalityco/data-packages@0.0.7
+    - @commonalityco/data-project@0.0.2
+    - @commonalityco/data-tags@0.0.2
+    - @commonalityco/data-violations@0.0.7
 
 ## 0.0.13
 
@@ -413,11 +421,11 @@
 
 - 76ea8f2: Initial release
 - Updated dependencies [76ea8f2]
-  - @commonalityco/constraints@0.0.5
-  - @commonalityco/codeowners@0.0.5
-  - @commonalityco/snapshot@0.0.6
-  - @commonalityco/traverse@0.0.6
-  - @commonalityco/dashboard@0.1.2
+    - @commonalityco/constraints@0.0.5
+    - @commonalityco/codeowners@0.0.5
+    - @commonalityco/snapshot@0.0.6
+    - @commonalityco/traverse@0.0.6
+    - @commonalityco/dashboard@0.1.2
 
 ## 0.0.12
 
@@ -425,11 +433,11 @@
 
 - 66e2af0: Initial publish
 - Updated dependencies [66e2af0]
-  - @commonalityco/constraints@0.0.4
-  - @commonalityco/codeowners@0.0.4
-  - @commonalityco/snapshot@0.0.5
-  - @commonalityco/traverse@0.0.5
-  - @commonalityco/dashboard@0.1.1
+    - @commonalityco/constraints@0.0.4
+    - @commonalityco/codeowners@0.0.4
+    - @commonalityco/snapshot@0.0.5
+    - @commonalityco/traverse@0.0.5
+    - @commonalityco/dashboard@0.1.1
 
 ## 0.0.11
 
@@ -463,7 +471,7 @@
 
 - ffc4586: Convert to ESM
 - Updated dependencies [ffc4586]
-  - @commonalityco/codeowners@0.0.3
+    - @commonalityco/codeowners@0.0.3
 
 ## 0.0.6
 
@@ -471,7 +479,7 @@
 
 - 1c0b0d9: Publish owners for packages and improve CLI ux
 - Updated dependencies [1c0b0d9]
-  - @commonalityco/codeowners@0.0.2
+    - @commonalityco/codeowners@0.0.2
 
 ## 0.0.5
 
@@ -479,7 +487,7 @@
 
 - 82e0fc8: Improved error handling for publish command
 - Updated dependencies [82e0fc8]
-  - @commonalityco/errors@0.0.2
+    - @commonalityco/errors@0.0.2
 
 ## 0.0.4
 

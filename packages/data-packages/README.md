@@ -1,5 +1,7 @@
 # @commonalityco/data-packages
+
 > Get package information about a local project
+
 ## Installation
 
 ```sh

@@ -1,5 +1,7 @@
 # eslint-config-commonality
+
 > The Commonality CLI's ESLint configuration
+
 ## Installation
 
 ```sh

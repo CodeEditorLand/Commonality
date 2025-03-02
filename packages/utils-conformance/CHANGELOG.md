@@ -4,9 +4,10 @@
 
 ### Patch Changes
 
-- 0faea77: Fixes an issue where the repository field check was creating an incorrectly formatted repository field
+- 0faea77: Fixes an issue where the repository field check was creating an
+  incorrectly formatted repository field
 - Updated dependencies [0faea77]
-  - @commonalityco/utils-core@0.2.37
+    - @commonalityco/utils-core@0.2.37
 
 ## 0.2.38
 
@@ -26,13 +27,15 @@
 
 - 3f1e821: Improve tag editing and constraints UX in Commonality Studio
 - Updated dependencies [3f1e821]
-  - @commonalityco/utils-core@0.2.36
+    - @commonalityco/utils-core@0.2.36
 
 ## 0.2.32
 
 ### Patch Changes
 
-- 14d31f8: Fixes an issue where if there were no tags in the project and checks were configured to be run on all packages, no conformance results would be shown.
+- 14d31f8: Fixes an issue where if there were no tags in the project and checks
+  were configured to be run on all packages, no conformance results would be
+  shown.
 
 ## 0.0.21
 
@@ -40,5 +43,5 @@
 
 - 4bd3547: Create granular packages
 - Updated dependencies [4bd3547]
-  - @commonalityco/ui-design-system@0.0.14
-  - @commonalityco/utils-core@0.0.12
+    - @commonalityco/ui-design-system@0.0.14
+    - @commonalityco/utils-core@0.0.12

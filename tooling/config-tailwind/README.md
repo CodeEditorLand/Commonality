@@ -1,5 +1,7 @@
 # @commonalityco/config-tailwind
+
 > TailwindCSS configuration and globals for Commonality projects
+
 ## Installation
 
 ```sh

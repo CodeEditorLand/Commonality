@@ -4,7 +4,8 @@
 
 ### Patch Changes
 
-- 0faea77: Fixes an issue where the repository field check was creating an incorrectly formatted repository field
+- 0faea77: Fixes an issue where the repository field check was creating an
+  incorrectly formatted repository field
 
 ## 0.2.38
 

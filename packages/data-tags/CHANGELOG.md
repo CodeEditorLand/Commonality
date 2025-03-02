@@ -5,31 +5,32 @@
 ### Patch Changes
 
 - Updated dependencies [0508b8f]
-  - @commonalityco/data-project@0.2.40
-  - @commonalityco/utils-core@0.2.38
+    - @commonalityco/data-project@0.2.40
+    - @commonalityco/utils-core@0.2.38
 
 ## 0.2.40
 
 ### Patch Changes
 
 - Updated dependencies [9458463]
-  - @commonalityco/data-project@0.2.39
+    - @commonalityco/data-project@0.2.39
 
 ## 0.2.39
 
 ### Patch Changes
 
-- 0faea77: Fixes an issue where the repository field check was creating an incorrectly formatted repository field
+- 0faea77: Fixes an issue where the repository field check was creating an
+  incorrectly formatted repository field
 - Updated dependencies [0faea77]
-  - @commonalityco/data-project@0.2.38
-  - @commonalityco/utils-core@0.2.37
+    - @commonalityco/data-project@0.2.38
+    - @commonalityco/utils-core@0.2.37
 
 ## 0.2.38
 
 ### Patch Changes
 
 - Updated dependencies [52d572a]
-  - @commonalityco/data-project@0.2.37
+    - @commonalityco/data-project@0.2.37
 
 ## 0.2.37
 
@@ -43,8 +44,8 @@
 
 - 3f1e821: Improve tag editing and constraints UX in Commonality Studio
 - Updated dependencies [3f1e821]
-  - @commonalityco/data-project@0.2.36
-  - @commonalityco/utils-core@0.2.36
+    - @commonalityco/data-project@0.2.36
+    - @commonalityco/utils-core@0.2.36
 
 ## 0.0.14
 
@@ -52,8 +53,8 @@
 
 - 4bd3547: Create granular packages
 - Updated dependencies [4bd3547]
-  - @commonalityco/data-project@0.0.13
-  - @commonalityco/utils-core@0.0.12
+    - @commonalityco/data-project@0.0.13
+    - @commonalityco/utils-core@0.0.12
 
 ## 0.0.13
 
@@ -61,8 +62,8 @@
 
 - ad4a813: Finalize Commonality Studio, checks, and constraints
 - Updated dependencies [ad4a813]
-  - @commonalityco/data-project@0.0.12
-  - @commonalityco/utils-core@0.0.11
+    - @commonalityco/data-project@0.0.12
+    - @commonalityco/utils-core@0.0.11
 
 ## 0.0.12
 
@@ -70,24 +71,24 @@
 
 - e9a5bc2: Add table view to Studio
 - Updated dependencies [e9a5bc2]
-  - @commonalityco/data-project@0.0.11
-  - @commonalityco/utils-core@0.0.10
+    - @commonalityco/data-project@0.0.11
+    - @commonalityco/utils-core@0.0.10
 
 ## 0.0.11
 
 ### Patch Changes
 
 - Updated dependencies [ffbc45c]
-  - @commonalityco/utils-core@0.0.9
-  - @commonalityco/data-project@0.0.10
+    - @commonalityco/utils-core@0.0.9
+    - @commonalityco/data-project@0.0.10
 
 ## 0.0.10
 
 ### Patch Changes
 
 - Updated dependencies [5b61b0e]
-  - @commonalityco/utils-core@0.0.8
-  - @commonalityco/data-project@0.0.9
+    - @commonalityco/utils-core@0.0.8
+    - @commonalityco/data-project@0.0.9
 
 ## 0.0.9
 
@@ -95,15 +96,15 @@
 
 - 91bfd71: Unify into commonality package
 - Updated dependencies [91bfd71]
-  - @commonalityco/data-project@0.0.8
+    - @commonalityco/data-project@0.0.8
 
 ## 0.0.8
 
 ### Patch Changes
 
 - Updated dependencies [26e1636]
-  - @commonalityco/utils-core@0.0.7
-  - @commonalityco/data-project@0.0.7
+    - @commonalityco/utils-core@0.0.7
+    - @commonalityco/data-project@0.0.7
 
 ## 0.0.7
 
@@ -111,8 +112,8 @@
 
 - a7691a8: Add skeleton and dep updates
 - Updated dependencies [a7691a8]
-  - @commonalityco/data-project@0.0.6
-  - @commonalityco/utils-core@0.0.6
+    - @commonalityco/data-project@0.0.6
+    - @commonalityco/utils-core@0.0.6
 
 ## 0.0.6
 
@@ -120,8 +121,8 @@
 
 - ee3504f: Distribute studio /dist
 - Updated dependencies [ee3504f]
-  - @commonalityco/data-project@0.0.5
-  - @commonalityco/utils-core@0.0.5
+    - @commonalityco/data-project@0.0.5
+    - @commonalityco/utils-core@0.0.5
 
 ## 0.0.5
 
@@ -129,8 +130,8 @@
 
 - dadeafb: Convert to ESM
 - Updated dependencies [dadeafb]
-  - @commonalityco/data-project@0.0.4
-  - @commonalityco/utils-core@0.0.4
+    - @commonalityco/data-project@0.0.4
+    - @commonalityco/utils-core@0.0.4
 
 ## 0.0.4
 
@@ -138,8 +139,8 @@
 
 - fb47c73: update build output
 - Updated dependencies [fb47c73]
-  - @commonalityco/data-project@0.0.3
-  - @commonalityco/utils-core@0.0.3
+    - @commonalityco/data-project@0.0.3
+    - @commonalityco/utils-core@0.0.3
 
 ## 0.0.3
 
@@ -153,7 +154,7 @@
 
 - da2c556: Initial release
 - Updated dependencies [da2c556]
-  - @commonalityco/data-project@0.0.2
+    - @commonalityco/data-project@0.0.2
 
 ## 0.0.6
 

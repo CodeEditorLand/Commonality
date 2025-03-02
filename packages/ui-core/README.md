@@ -1,5 +1,7 @@
 # @commonalityco/ui-core
+
 > Presentational components used to build Commonality applications
+
 ## Installation
 
 ```sh

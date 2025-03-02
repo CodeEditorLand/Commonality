@@ -1,5 +1,7 @@
 # @commonalityco/utils-package
+
 > Utilities for formatting package data
+
 ## Installation
 
 ```sh

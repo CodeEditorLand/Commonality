@@ -1,5 +1,7 @@
 # @commonalityco/data-tags
+
 > Utilities getting and setting metadata for a Commonality project
+
 ## Installation
 
 ```sh

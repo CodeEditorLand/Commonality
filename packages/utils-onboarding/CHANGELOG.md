@@ -4,15 +4,17 @@
 
 ### Patch Changes
 
-- 9458463: Fix issue where graph would reload multiple times on initial page load
+- 9458463: Fix issue where graph would reload multiple times on initial page
+  load
 
 ## 0.2.38
 
 ### Patch Changes
 
-- 0faea77: Fixes an issue where the repository field check was creating an incorrectly formatted repository field
+- 0faea77: Fixes an issue where the repository field check was creating an
+  incorrectly formatted repository field
 - Updated dependencies [0faea77]
-  - @commonalityco/utils-file@0.0.3
+    - @commonalityco/utils-file@0.0.3
 
 ## 0.2.37
 
@@ -20,7 +22,7 @@
 
 - 52d572a: Add new project flow with commonality init
 - Updated dependencies [52d572a]
-  - @commonalityco/utils-file@0.0.2
+    - @commonalityco/utils-file@0.0.2
 
 ## 0.2.36
 
@@ -40,7 +42,7 @@
 
 - ad4a813: Finalize Commonality Studio, checks, and constraints
 - Updated dependencies [ad4a813]
-  - @commonalityco/utils-core@0.0.11
+    - @commonalityco/utils-core@0.0.11
 
 ## 0.0.10
 
@@ -48,7 +50,7 @@
 
 - e9a5bc2: Add table view to Studio
 - Updated dependencies [e9a5bc2]
-  - @commonalityco/utils-core@0.0.10
+    - @commonalityco/utils-core@0.0.10
 
 ## 0.0.9
 
@@ -56,7 +58,7 @@
 
 - ffbc45c: Fixed graph color and reduced bundle size dramatically
 - Updated dependencies [ffbc45c]
-  - @commonalityco/utils-core@0.0.9
+    - @commonalityco/utils-core@0.0.9
 
 ## 0.0.8
 
@@ -64,14 +66,14 @@
 
 - 5b61b0e: Reduce bundle size
 - Updated dependencies [5b61b0e]
-  - @commonalityco/utils-core@0.0.8
+    - @commonalityco/utils-core@0.0.8
 
 ## 0.0.7
 
 ### Patch Changes
 
 - Updated dependencies [26e1636]
-  - @commonalityco/utils-core@0.0.7
+    - @commonalityco/utils-core@0.0.7
 
 ## 0.0.6
 
@@ -79,7 +81,7 @@
 
 - a7691a8: Add skeleton and dep updates
 - Updated dependencies [a7691a8]
-  - @commonalityco/utils-core@0.0.6
+    - @commonalityco/utils-core@0.0.6
 
 ## 0.0.5
 
@@ -87,7 +89,7 @@
 
 - ee3504f: Distribute studio /dist
 - Updated dependencies [ee3504f]
-  - @commonalityco/utils-core@0.0.5
+    - @commonalityco/utils-core@0.0.5
 
 ## 0.0.4
 
@@ -95,7 +97,7 @@
 
 - dadeafb: Convert to ESM
 - Updated dependencies [dadeafb]
-  - @commonalityco/utils-core@0.0.4
+    - @commonalityco/utils-core@0.0.4
 
 ## 0.0.3
 
@@ -103,7 +105,7 @@
 
 - fb47c73: update build output
 - Updated dependencies [fb47c73]
-  - @commonalityco/utils-core@0.0.3
+    - @commonalityco/utils-core@0.0.3
 
 ## 0.0.2
 
