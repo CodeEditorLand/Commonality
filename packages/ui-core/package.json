@@ -26,7 +26,7 @@
 	"dependencies": {
 		"@radix-ui/react-slot": "1.1.2",
 		"class-variance-authority": "0.7.1",
-		"tailwind-merge": "3.0.1"
+		"tailwind-merge": "3.0.2"
 	},
 	"devDependencies": {
 		"@commonalityco/config-tailwind": "workspace:*",
@@ -36,18 +36,18 @@
 		"@types/react": "19.0.10",
 		"eslint-config-commonality": "workspace:*",
 		"lucide-react": "0.317.0",
-		"next": "15.1.7",
+		"next": "15.2.1",
 		"next-themes": "0.2.1",
 		"react": "19.0.0",
 		"react-dom": "19.0.0",
 		"tailwindcss": "3.4.17",
-		"typescript": "5.7.3"
+		"typescript": "5.8.2"
 	},
 	"peerDependencies": {
 		"@commonalityco/ui-design-system": "*",
 		"@commonalityco/utils-core": "*",
 		"lucide-react": "0.x",
-		"next": "15.1.7",
+		"next": "15.2.1",
 		"next-themes": "0.x",
 		"react": ">=19",
 		"react-dom": ">=19"

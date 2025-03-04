@@ -37,10 +37,10 @@
 		"@commonalityco/types": "workspace:*",
 		"@types/fs-extra": "11.0.4",
 		"@types/mock-fs": "4.13.4",
-		"@types/node": "22.13.4",
+		"@types/node": "22.13.9",
 		"eslint-config-commonality": "workspace:*",
 		"mock-fs": "5.5.0",
-		"typescript": "5.7.3"
+		"typescript": "5.8.2"
 	},
 	"publishConfig": {
 		"access": "public",
