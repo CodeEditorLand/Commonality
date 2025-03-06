@@ -17,7 +17,7 @@ jobs:
       TURBO_REMOTE_ONLY: true
     steps:
       - name: ⬇️ Checkout Repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.2.2
         with:
           token: ${{ secrets.SERVICE_TOKEN }}
 
