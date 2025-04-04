@@ -60,7 +60,7 @@
 		"ora": "8.2.0",
 		"pathe": "2.0.3",
 		"prompts": "2.4.2",
-		"std-env": "3.8.1",
+		"std-env": "3.9.0",
 		"strip-ansi": "7.1.0",
 		"update-notifier": "7.3.1",
 		"wait-on": "8.0.3",

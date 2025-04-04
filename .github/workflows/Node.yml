@@ -76,7 +76,7 @@ jobs:
                           --unsafe-perm=true
                         ]
 
-            - uses: actions/setup-node@v4.2.0
+            - uses: actions/setup-node@v4.3.0
               with:
                   node-version: ${{ matrix.node-version }}
                   cache: "pnpm"
@@ -88,7 +88,7 @@ jobs:
             - run: pnpm run build
               working-directory: .
 
-            - uses: actions/upload-artifact@v4.6.1
+            - uses: actions/upload-artifact@v4.6.2
               with:
                   name: .-apps-commonality-Node-${{ matrix.node-version }}-Target
                   path: ./apps/commonality/Target
@@ -96,7 +96,7 @@ jobs:
             - run: pnpm run test
               working-directory: ./apps/commonality
 
-            - uses: actions/setup-node@v4.2.0
+            - uses: actions/setup-node@v4.3.0
               with:
                   node-version: ${{ matrix.node-version }}
                   cache: "pnpm"
@@ -105,7 +105,7 @@ jobs:
             - run: pnpm install
               working-directory: ./apps/studio/fixtures/kitchen-sink-pnpm/packages/pkg-one
 
-            - uses: actions/setup-node@v4.2.0
+            - uses: actions/setup-node@v4.3.0
               with:
                   node-version: ${{ matrix.node-version }}
                   cache: "pnpm"
@@ -114,7 +114,7 @@ jobs:
             - run: pnpm install
               working-directory: ./apps/studio/fixtures/kitchen-sink-pnpm/packages/pkg-two
 
-            - uses: actions/setup-node@v4.2.0
+            - uses: actions/setup-node@v4.3.0
               with:
                   node-version: ${{ matrix.node-version }}
                   cache: "pnpm"
@@ -126,7 +126,7 @@ jobs:
             - run: pnpm run build
               working-directory: .
 
-            - uses: actions/upload-artifact@v4.6.1
+            - uses: actions/upload-artifact@v4.6.2
               with:
                   name: .-apps-studio-Node-${{ matrix.node-version }}-Target
                   path: ./apps/studio/Target
@@ -134,7 +134,7 @@ jobs:
             - run: pnpm run test
               working-directory: ./apps/studio
 
-            - uses: actions/setup-node@v4.2.0
+            - uses: actions/setup-node@v4.3.0
               with:
                   node-version: ${{ matrix.node-version }}
                   cache: "pnpm"
@@ -143,7 +143,7 @@ jobs:
             - run: pnpm install
               working-directory: ./apps/workshop
 
-            - uses: actions/setup-node@v4.2.0
+            - uses: actions/setup-node@v4.3.0
               with:
                   node-version: ${{ matrix.node-version }}
                   cache: "pnpm"
@@ -155,7 +155,7 @@ jobs:
             - run: pnpm run build
               working-directory: .
 
-            - uses: actions/upload-artifact@v4.6.1
+            - uses: actions/upload-artifact@v4.6.2
               with:
                   name: .-Node-${{ matrix.node-version }}-Target
                   path: ./Target
@@ -163,7 +163,7 @@ jobs:
             - run: pnpm run test
               working-directory: .
 
-            - uses: actions/setup-node@v4.2.0
+            - uses: actions/setup-node@v4.3.0
               with:
                   node-version: ${{ matrix.node-version }}
                   cache: "pnpm"
@@ -175,7 +175,7 @@ jobs:
             - run: pnpm run build
               working-directory: .
 
-            - uses: actions/upload-artifact@v4.6.1
+            - uses: actions/upload-artifact@v4.6.2
               with:
                   name: .-packages-commonality-checks-recommended-Node-${{ matrix.node-version }}-Target
                   path: ./packages/commonality-checks-recommended/Target
@@ -183,7 +183,7 @@ jobs:
             - run: pnpm run test
               working-directory: ./packages/commonality-checks-recommended
 
-            - uses: actions/setup-node@v4.2.0
+            - uses: actions/setup-node@v4.3.0
               with:
                   node-version: ${{ matrix.node-version }}
                   cache: "pnpm"
@@ -195,7 +195,7 @@ jobs:
             - run: pnpm run build
               working-directory: .
 
-            - uses: actions/upload-artifact@v4.6.1
+            - uses: actions/upload-artifact@v4.6.2
               with:
                   name: .-packages-data-codeowners-Node-${{ matrix.node-version }}-Target
                   path: ./packages/data-codeowners/Target
@@ -203,7 +203,7 @@ jobs:
             - run: pnpm run test
               working-directory: ./packages/data-codeowners
 
-            - uses: actions/setup-node@v4.2.0
+            - uses: actions/setup-node@v4.3.0
               with:
                   node-version: ${{ matrix.node-version }}
                   cache: "pnpm"
@@ -212,7 +212,7 @@ jobs:
             - run: pnpm install
               working-directory: ./packages/data-codeowners/test/fixtures/github-example
 
-            - uses: actions/setup-node@v4.2.0
+            - uses: actions/setup-node@v4.3.0
               with:
                   node-version: ${{ matrix.node-version }}
                   cache: "pnpm"
@@ -221,7 +221,7 @@ jobs:
             - run: pnpm install
               working-directory: ./packages/data-codeowners/test/fixtures/missing-file
 
-            - uses: actions/setup-node@v4.2.0
+            - uses: actions/setup-node@v4.3.0
               with:
                   node-version: ${{ matrix.node-version }}
                   cache: "pnpm"
@@ -233,7 +233,7 @@ jobs:
             - run: pnpm run build
               working-directory: .
 
-            - uses: actions/upload-artifact@v4.6.1
+            - uses: actions/upload-artifact@v4.6.2
               with:
                   name: .-packages-data-constraints-Node-${{ matrix.node-version }}-Target
                   path: ./packages/data-constraints/Target
@@ -241,7 +241,7 @@ jobs:
             - run: pnpm run test
               working-directory: ./packages/data-constraints
 
-            - uses: actions/setup-node@v4.2.0
+            - uses: actions/setup-node@v4.3.0
               with:
                   node-version: ${{ matrix.node-version }}
                   cache: "pnpm"
@@ -253,7 +253,7 @@ jobs:
             - run: pnpm run build
               working-directory: .
 
-            - uses: actions/upload-artifact@v4.6.1
+            - uses: actions/upload-artifact@v4.6.2
               with:
                   name: .-packages-data-packages-Node-${{ matrix.node-version }}-Target
                   path: ./packages/data-packages/Target
@@ -261,7 +261,7 @@ jobs:
             - run: pnpm run test
               working-directory: ./packages/data-packages
 
-            - uses: actions/setup-node@v4.2.0
+            - uses: actions/setup-node@v4.3.0
               with:
                   node-version: ${{ matrix.node-version }}
                   cache: "pnpm"
@@ -270,7 +270,7 @@ jobs:
             - run: pnpm install
               working-directory: ./packages/data-packages/test/fixtures/kitchen-sink/packages/pkg-one
 
-            - uses: actions/setup-node@v4.2.0
+            - uses: actions/setup-node@v4.3.0
               with:
                   node-version: ${{ matrix.node-version }}
                   cache: "pnpm"
@@ -279,7 +279,7 @@ jobs:
             - run: pnpm install
               working-directory: ./packages/data-packages/test/fixtures/missing-json-root/packages/pkg-one
 
-            - uses: actions/setup-node@v4.2.0
+            - uses: actions/setup-node@v4.3.0
               with:
                   node-version: ${{ matrix.node-version }}
                   cache: "pnpm"
@@ -288,7 +288,7 @@ jobs:
             - run: pnpm install
               working-directory: ./packages/data-packages/test/fixtures/missing-lockfile/packages/pkg-one
 
-            - uses: actions/setup-node@v4.2.0
+            - uses: actions/setup-node@v4.3.0
               with:
                   node-version: ${{ matrix.node-version }}
                   cache: "pnpm"
@@ -297,7 +297,7 @@ jobs:
             - run: pnpm install
               working-directory: ./packages/data-packages/test/fixtures/missing-name-root/packages/pkg-one
 
-            - uses: actions/setup-node@v4.2.0
+            - uses: actions/setup-node@v4.3.0
               with:
                   node-version: ${{ matrix.node-version }}
                   cache: "pnpm"
@@ -309,7 +309,7 @@ jobs:
             - run: pnpm run build
               working-directory: .
 
-            - uses: actions/upload-artifact@v4.6.1
+            - uses: actions/upload-artifact@v4.6.2
               with:
                   name: .-packages-data-project-Node-${{ matrix.node-version }}-Target
                   path: ./packages/data-project/Target
@@ -317,7 +317,7 @@ jobs:
             - run: pnpm run test
               working-directory: ./packages/data-project
 
-            - uses: actions/setup-node@v4.2.0
+            - uses: actions/setup-node@v4.3.0
               with:
                   node-version: ${{ matrix.node-version }}
                   cache: "pnpm"
@@ -329,7 +329,7 @@ jobs:
             - run: pnpm run build
               working-directory: .
 
-            - uses: actions/upload-artifact@v4.6.1
+            - uses: actions/upload-artifact@v4.6.2
               with:
                   name: .-packages-data-tags-Node-${{ matrix.node-version }}-Target
                   path: ./packages/data-tags/Target
@@ -337,7 +337,7 @@ jobs:
             - run: pnpm run test
               working-directory: ./packages/data-tags
 
-            - uses: actions/setup-node@v4.2.0
+            - uses: actions/setup-node@v4.3.0
               with:
                   node-version: ${{ matrix.node-version }}
                   cache: "pnpm"
@@ -349,12 +349,12 @@ jobs:
             - run: pnpm run build
               working-directory: .
 
-            - uses: actions/upload-artifact@v4.6.1
+            - uses: actions/upload-artifact@v4.6.2
               with:
                   name: .-packages-types-Node-${{ matrix.node-version }}-Target
                   path: ./packages/types/Target
 
-            - uses: actions/setup-node@v4.2.0
+            - uses: actions/setup-node@v4.3.0
               with:
                   node-version: ${{ matrix.node-version }}
                   cache: "pnpm"
@@ -366,7 +366,7 @@ jobs:
             - run: pnpm run build
               working-directory: .
 
-            - uses: actions/upload-artifact@v4.6.1
+            - uses: actions/upload-artifact@v4.6.2
               with:
                   name: .-packages-ui-conformance-Node-${{ matrix.node-version }}-Target
                   path: ./packages/ui-conformance/Target
@@ -374,7 +374,7 @@ jobs:
             - run: pnpm run test
               working-directory: ./packages/ui-conformance
 
-            - uses: actions/setup-node@v4.2.0
+            - uses: actions/setup-node@v4.3.0
               with:
                   node-version: ${{ matrix.node-version }}
                   cache: "pnpm"
@@ -386,7 +386,7 @@ jobs:
             - run: pnpm run build
               working-directory: .
 
-            - uses: actions/upload-artifact@v4.6.1
+            - uses: actions/upload-artifact@v4.6.2
               with:
                   name: .-packages-ui-constraints-Node-${{ matrix.node-version }}-Target
                   path: ./packages/ui-constraints/Target
@@ -394,7 +394,7 @@ jobs:
             - run: pnpm run test
               working-directory: ./packages/ui-constraints
 
-            - uses: actions/setup-node@v4.2.0
+            - uses: actions/setup-node@v4.3.0
               with:
                   node-version: ${{ matrix.node-version }}
                   cache: "pnpm"
@@ -406,7 +406,7 @@ jobs:
             - run: pnpm run build
               working-directory: .
 
-            - uses: actions/upload-artifact@v4.6.1
+            - uses: actions/upload-artifact@v4.6.2
               with:
                   name: .-packages-ui-core-Node-${{ matrix.node-version }}-Target
                   path: ./packages/ui-core/Target
@@ -414,7 +414,7 @@ jobs:
             - run: pnpm run test
               working-directory: ./packages/ui-core
 
-            - uses: actions/setup-node@v4.2.0
+            - uses: actions/setup-node@v4.3.0
               with:
                   node-version: ${{ matrix.node-version }}
                   cache: "pnpm"
@@ -426,12 +426,12 @@ jobs:
             - run: pnpm run build
               working-directory: .
 
-            - uses: actions/upload-artifact@v4.6.1
+            - uses: actions/upload-artifact@v4.6.2
               with:
                   name: .-packages-ui-design-system-Node-${{ matrix.node-version }}-Target
                   path: ./packages/ui-design-system/Target
 
-            - uses: actions/setup-node@v4.2.0
+            - uses: actions/setup-node@v4.3.0
               with:
                   node-version: ${{ matrix.node-version }}
                   cache: "pnpm"
@@ -443,7 +443,7 @@ jobs:
             - run: pnpm run build
               working-directory: .
 
-            - uses: actions/upload-artifact@v4.6.1
+            - uses: actions/upload-artifact@v4.6.2
               with:
                   name: .-packages-ui-graph-Node-${{ matrix.node-version }}-Target
                   path: ./packages/ui-graph/Target
@@ -451,7 +451,7 @@ jobs:
             - run: pnpm run test
               working-directory: ./packages/ui-graph
 
-            - uses: actions/setup-node@v4.2.0
+            - uses: actions/setup-node@v4.3.0
               with:
                   node-version: ${{ matrix.node-version }}
                   cache: "pnpm"
@@ -463,7 +463,7 @@ jobs:
             - run: pnpm run build
               working-directory: .
 
-            - uses: actions/upload-artifact@v4.6.1
+            - uses: actions/upload-artifact@v4.6.2
               with:
                   name: .-packages-ui-package-Node-${{ matrix.node-version }}-Target
                   path: ./packages/ui-package/Target
@@ -471,7 +471,7 @@ jobs:
             - run: pnpm run test
               working-directory: ./packages/ui-package
 
-            - uses: actions/setup-node@v4.2.0
+            - uses: actions/setup-node@v4.3.0
               with:
                   node-version: ${{ matrix.node-version }}
                   cache: "pnpm"
@@ -483,7 +483,7 @@ jobs:
             - run: pnpm run build
               working-directory: .
 
-            - uses: actions/upload-artifact@v4.6.1
+            - uses: actions/upload-artifact@v4.6.2
               with:
                   name: .-packages-utils-conformance-Node-${{ matrix.node-version }}-Target
                   path: ./packages/utils-conformance/Target
@@ -491,7 +491,7 @@ jobs:
             - run: pnpm run test
               working-directory: ./packages/utils-conformance
 
-            - uses: actions/setup-node@v4.2.0
+            - uses: actions/setup-node@v4.3.0
               with:
                   node-version: ${{ matrix.node-version }}
                   cache: "pnpm"
@@ -503,7 +503,7 @@ jobs:
             - run: pnpm run build
               working-directory: .
 
-            - uses: actions/upload-artifact@v4.6.1
+            - uses: actions/upload-artifact@v4.6.2
               with:
                   name: .-packages-utils-core-Node-${{ matrix.node-version }}-Target
                   path: ./packages/utils-core/Target
@@ -511,7 +511,7 @@ jobs:
             - run: pnpm run test
               working-directory: ./packages/utils-core
 
-            - uses: actions/setup-node@v4.2.0
+            - uses: actions/setup-node@v4.3.0
               with:
                   node-version: ${{ matrix.node-version }}
                   cache: "pnpm"
@@ -523,7 +523,7 @@ jobs:
             - run: pnpm run build
               working-directory: .
 
-            - uses: actions/upload-artifact@v4.6.1
+            - uses: actions/upload-artifact@v4.6.2
               with:
                   name: .-packages-utils-file-Node-${{ matrix.node-version }}-Target
                   path: ./packages/utils-file/Target
@@ -531,7 +531,7 @@ jobs:
             - run: pnpm run test
               working-directory: ./packages/utils-file
 
-            - uses: actions/setup-node@v4.2.0
+            - uses: actions/setup-node@v4.3.0
               with:
                   node-version: ${{ matrix.node-version }}
                   cache: "pnpm"
@@ -543,7 +543,7 @@ jobs:
             - run: pnpm run build
               working-directory: .
 
-            - uses: actions/upload-artifact@v4.6.1
+            - uses: actions/upload-artifact@v4.6.2
               with:
                   name: .-packages-utils-onboarding-Node-${{ matrix.node-version }}-Target
                   path: ./packages/utils-onboarding/Target
@@ -551,7 +551,7 @@ jobs:
             - run: pnpm run test
               working-directory: ./packages/utils-onboarding
 
-            - uses: actions/setup-node@v4.2.0
+            - uses: actions/setup-node@v4.3.0
               with:
                   node-version: ${{ matrix.node-version }}
                   cache: "pnpm"
@@ -563,12 +563,12 @@ jobs:
             - run: pnpm run build
               working-directory: .
 
-            - uses: actions/upload-artifact@v4.6.1
+            - uses: actions/upload-artifact@v4.6.2
               with:
                   name: .-packages-utils-package-Node-${{ matrix.node-version }}-Target
                   path: ./packages/utils-package/Target
 
-            - uses: actions/setup-node@v4.2.0
+            - uses: actions/setup-node@v4.3.0
               with:
                   node-version: ${{ matrix.node-version }}
                   cache: "pnpm"
@@ -577,7 +577,7 @@ jobs:
             - run: pnpm install
               working-directory: ./tooling/config-eslint
 
-            - uses: actions/setup-node@v4.2.0
+            - uses: actions/setup-node@v4.3.0
               with:
                   node-version: ${{ matrix.node-version }}
                   cache: "pnpm"
@@ -586,7 +586,7 @@ jobs:
             - run: pnpm install
               working-directory: ./tooling/config-tailwind
 
-            - uses: actions/setup-node@v4.2.0
+            - uses: actions/setup-node@v4.3.0
               with:
                   node-version: ${{ matrix.node-version }}
                   cache: "pnpm"
