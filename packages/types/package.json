@@ -25,7 +25,7 @@
 		"@commonalityco/config-tsconfig": "workspace:*",
 		"@commonalityco/utils-core": "workspace:*",
 		"eslint-config-commonality": "workspace:*",
-		"typescript": "5.8.2"
+		"typescript": "5.8.3"
 	},
 	"peerDependencies": {
 		"@commonalityco/utils-core": "*"

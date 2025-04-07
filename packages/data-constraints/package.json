@@ -26,7 +26,7 @@
 		"@commonalityco/types": "workspace:*",
 		"@commonalityco/utils-core": "workspace:*",
 		"eslint-config-commonality": "workspace:*",
-		"typescript": "5.8.2"
+		"typescript": "5.8.3"
 	},
 	"publishConfig": {
 		"access": "public"
