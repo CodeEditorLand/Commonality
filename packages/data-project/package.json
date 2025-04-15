@@ -37,7 +37,7 @@
 		"@commonalityco/types": "workspace:*",
 		"@types/fs-extra": "11.0.4",
 		"@types/mock-fs": "4.13.4",
-		"@types/node": "22.14.0",
+		"@types/node": "22.14.1",
 		"eslint-config-commonality": "workspace:*",
 		"mock-fs": "5.5.0",
 		"typescript": "5.8.3"

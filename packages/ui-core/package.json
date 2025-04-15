@@ -24,7 +24,7 @@
 		"type-check": "tsc --noEmit"
 	},
 	"dependencies": {
-		"@radix-ui/react-slot": "1.1.2",
+		"@radix-ui/react-slot": "1.2.0",
 		"class-variance-authority": "0.7.1",
 		"tailwind-merge": "3.2.0"
 	},
@@ -33,10 +33,10 @@
 		"@commonalityco/config-tsconfig": "workspace:*",
 		"@commonalityco/ui-design-system": "workspace:*",
 		"@commonalityco/utils-core": "workspace:*",
-		"@types/react": "19.1.0",
+		"@types/react": "19.1.2",
 		"eslint-config-commonality": "workspace:*",
 		"lucide-react": "0.317.0",
-		"next": "15.2.4",
+		"next": "15.3.0",
 		"next-themes": "0.2.1",
 		"react": "19.0.0",
 		"react-dom": "19.0.0",
@@ -47,7 +47,7 @@
 		"@commonalityco/ui-design-system": "*",
 		"@commonalityco/utils-core": "*",
 		"lucide-react": "0.x",
-		"next": "15.2.4",
+		"next": "15.3.0",
 		"next-themes": "0.x",
 		"react": ">=19",
 		"react-dom": ">=19"
