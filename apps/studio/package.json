@@ -31,7 +31,7 @@
 	"dependencies": {
 		"chokidar": "4.0.3",
 		"execa": "9.5.2",
-		"next": "15.3.0",
+		"next": "15.3.1",
 		"socket.io": "4.8.1",
 		"socket.io-client": "4.8.1",
 		"wait-on": "8.0.3"
@@ -56,10 +56,10 @@
 		"@commonalityco/utils-core": "workspace:*",
 		"@commonalityco/utils-package": "workspace:*",
 		"@hookform/resolvers": "5.0.1",
-		"@next/bundle-analyzer": "15.3.0",
-		"@playwright/test": "1.51.1",
-		"@tanstack/react-query": "5.74.3",
-		"@tanstack/react-query-devtools": "5.74.3",
+		"@next/bundle-analyzer": "15.3.1",
+		"@playwright/test": "1.52.0",
+		"@tanstack/react-query": "5.74.4",
+		"@tanstack/react-query-devtools": "5.74.4",
 		"@tanstack/react-table": "8.21.3",
 		"@testing-library/jest-dom": "6.6.3",
 		"@testing-library/react": "16.3.0",
@@ -78,16 +78,16 @@
 		"class-variance-authority": "0.7.1",
 		"clsx": "2.1.1",
 		"cookies-next": "5.1.0",
-		"cypress": "14.3.0",
+		"cypress": "14.3.1",
 		"cytoscape": "3.31.2",
 		"date-fns": "4.1.0",
-		"eslint-config-next": "15.3.0",
+		"eslint-config-next": "15.3.1",
 		"fs-extra": "11.3.0",
 		"get-port": "7.1.0",
 		"jest": "29.7.0",
 		"jest-environment-jsdom": "29.7.0",
 		"lodash-es": "4.17.21",
-		"lucide-react": "0.488.0",
+		"lucide-react": "0.489.0",
 		"next-themes": "0.4.6",
 		"open-editor": "5.1.0",
 		"path-browserify": "1.0.1",
@@ -110,7 +110,7 @@
 		"vite-tsconfig-paths": "5.1.4",
 		"which-collection": "1.0.2",
 		"xstate": "5.19.2",
-		"zod": "3.24.2"
+		"zod": "3.24.3"
 	},
 	"engines": {
 		"node": ">=18.17.0"

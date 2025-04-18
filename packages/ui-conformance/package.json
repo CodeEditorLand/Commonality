@@ -26,7 +26,7 @@
 	},
 	"dependencies": {
 		"@tanstack/react-table": "8.21.3",
-		"lucide-react": "0.488.0"
+		"lucide-react": "0.489.0"
 	},
 	"devDependencies": {
 		"@commonalityco/config-tsconfig": "workspace:*",
