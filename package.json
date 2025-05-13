@@ -50,5 +50,5 @@
 	"devDependencies": {
 		"@commonalityco/studio": "workspace:^"
 	},
-	"packageManager": "pnpm@10.2.1"
+	"packageManager": "pnpm@10.10.0"
 }
