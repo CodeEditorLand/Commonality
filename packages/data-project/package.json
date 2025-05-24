@@ -30,14 +30,14 @@
 		"globby": "14.1.0",
 		"jiti": "2.4.2",
 		"yaml": "2.8.0",
-		"zod": "3.24.4"
+		"zod": "3.25.28"
 	},
 	"devDependencies": {
 		"@commonalityco/config-tsconfig": "workspace:*",
 		"@commonalityco/types": "workspace:*",
 		"@types/fs-extra": "11.0.4",
 		"@types/mock-fs": "4.13.4",
-		"@types/node": "22.15.18",
+		"@types/node": "22.15.21",
 		"eslint-config-commonality": "workspace:*",
 		"mock-fs": "5.5.0",
 		"typescript": "5.8.3"

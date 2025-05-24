@@ -24,7 +24,7 @@
 	},
 	"devDependencies": {
 		"@commonalityco/config-tsconfig": "workspace:*",
-		"@types/react": "19.1.4",
+		"@types/react": "19.1.5",
 		"eslint-config-commonality": "workspace:*",
 		"react": "19.0.0",
 		"react-dom": "19.0.0",
