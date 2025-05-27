@@ -31,7 +31,7 @@
 		"@commonalityco/config-tsconfig": "workspace:*",
 		"@commonalityco/types": "workspace:*",
 		"@types/fs-extra": "11.0.4",
-		"@types/node": "22.15.21",
+		"@types/node": "22.15.23",
 		"eslint-config-commonality": "workspace:*",
 		"typescript": "5.8.3"
 	},

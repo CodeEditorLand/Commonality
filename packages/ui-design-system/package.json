@@ -58,7 +58,7 @@
 	"devDependencies": {
 		"@commonalityco/config-tailwind": "workspace:*",
 		"@commonalityco/config-tsconfig": "workspace:*",
-		"@types/react": "19.1.5",
+		"@types/react": "19.1.6",
 		"eslint-config-commonality": "workspace:*",
 		"lucide-react": "0.317.0",
 		"react": "19.0.0",

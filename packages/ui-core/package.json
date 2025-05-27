@@ -33,7 +33,7 @@
 		"@commonalityco/config-tsconfig": "workspace:*",
 		"@commonalityco/ui-design-system": "workspace:*",
 		"@commonalityco/utils-core": "workspace:*",
-		"@types/react": "19.1.5",
+		"@types/react": "19.1.6",
 		"eslint-config-commonality": "workspace:*",
 		"lucide-react": "0.317.0",
 		"next": "15.3.2",
