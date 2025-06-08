@@ -23,16 +23,16 @@
 		"type-check": "tsc --noEmit"
 	},
 	"dependencies": {
-		"@commonalityco/data-project": "workspace:*",
-		"@commonalityco/utils-core": "workspace:*",
+		"@commonalityco/data-project": "0.2.46",
+		"@commonalityco/utils-core": "0.2.42",
 		"fs-extra": "11.3.0"
 	},
 	"devDependencies": {
-		"@commonalityco/config-tsconfig": "workspace:*",
-		"@commonalityco/types": "workspace:*",
+		"@commonalityco/config-tsconfig": "0.0.1",
+		"@commonalityco/types": "0.2.40",
 		"@types/fs-extra": "11.0.4",
-		"@types/node": "22.15.23",
-		"eslint-config-commonality": "workspace:*",
+		"@types/node": "22.15.30",
+		"eslint-config-commonality": "0.0.13",
 		"typescript": "5.8.3"
 	},
 	"publishConfig": {

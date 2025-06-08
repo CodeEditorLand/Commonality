@@ -23,9 +23,9 @@
 		"type-check": "tsc --noEmit"
 	},
 	"devDependencies": {
-		"@commonalityco/config-tsconfig": "workspace:*",
+		"@commonalityco/config-tsconfig": "0.0.1",
 		"@types/react": "19.1.6",
-		"eslint-config-commonality": "workspace:*",
+		"eslint-config-commonality": "0.0.13",
 		"react": "19.0.0",
 		"react-dom": "19.0.0",
 		"typescript": "5.8.3"

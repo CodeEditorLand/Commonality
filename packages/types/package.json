@@ -22,9 +22,9 @@
 		"type-check": "tsc --noEmit"
 	},
 	"devDependencies": {
-		"@commonalityco/config-tsconfig": "workspace:*",
-		"@commonalityco/utils-core": "workspace:*",
-		"eslint-config-commonality": "workspace:*",
+		"@commonalityco/config-tsconfig": "0.0.1",
+		"@commonalityco/utils-core": "0.0.1",
+		"eslint-config-commonality": "0.0.13",
 		"typescript": "5.8.3"
 	},
 	"peerDependencies": {

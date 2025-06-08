@@ -32,20 +32,20 @@
 		"prompts": "2.4.2"
 	},
 	"devDependencies": {
-		"@commonalityco/config-tsconfig": "workspace:*",
-		"@commonalityco/utils-file": "workspace:*",
+		"@commonalityco/config-tsconfig": "0.0.1",
+		"@commonalityco/utils-file": "0.0.6",
 		"@types/fs-extra": "11.0.4",
 		"@types/mock-fs": "4.13.4",
 		"@types/prompts": "2.4.9",
 		"@types/react": "19.1.6",
-		"eslint-config-commonality": "workspace:*",
+		"eslint-config-commonality": "0.0.13",
 		"mock-fs": "5.5.0",
 		"react": "19.0.0",
 		"react-dom": "19.0.0",
 		"typescript": "5.8.3"
 	},
 	"peerDependencies": {
-		"@commonalityco/utils-file": "workspace:*",
+		"@commonalityco/utils-file": "0.0.6",
 		"react": ">=19",
 		"react-dom": ">=19"
 	},
