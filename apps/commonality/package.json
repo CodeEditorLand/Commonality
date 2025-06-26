@@ -52,11 +52,11 @@
 		"fs-extra": "11.3.0",
 		"get-port": "7.1.0",
 		"globby": "14.1.0",
-		"jest-diff": "29.7.0",
+		"jest-diff": "30.0.2",
 		"jiti": "2.4.2",
 		"local-pkg": "1.1.1",
 		"lodash-es": "4.17.21",
-		"minimatch": "10.0.1",
+		"minimatch": "10.0.3",
 		"ora": "8.2.0",
 		"pathe": "2.0.3",
 		"prompts": "2.4.2",
@@ -65,7 +65,7 @@
 		"update-notifier": "7.3.1",
 		"wait-on": "8.0.3",
 		"yaml": "2.8.0",
-		"zod": "3.25.56"
+		"zod": "3.25.67"
 	},
 	"devDependencies": {
 		"@commonalityco/config-tsconfig": "0.0.1",
@@ -79,11 +79,11 @@
 		"@commonalityco/utils-core": "0.2.42",
 		"@commonalityco/utils-file": "0.0.6",
 		"@commonalityco/utils-onboarding": "0.2.39",
-		"@swc/core": "1.11.31",
+		"@swc/core": "1.12.5",
 		"@types/fs-extra": "11.0.4",
 		"@types/lodash-es": "4.17.12",
 		"@types/mock-fs": "4.13.4",
-		"@types/node": "22.15.30",
+		"@types/node": "24.0.3",
 		"@types/prompts": "2.4.9",
 		"@types/wait-on": "5.3.4",
 		"eslint-config-commonality": "0.0.13",
@@ -93,7 +93,7 @@
 		"rimraf": "6.0.1",
 		"tsup": "8.5.0",
 		"typescript": "5.8.3",
-		"vitest": "3.2.2"
+		"vitest": "3.2.4"
 	},
 	"engines": {
 		"node": ">=18.17.0"

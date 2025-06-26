@@ -26,7 +26,7 @@
 	},
 	"dependencies": {
 		"@tanstack/react-table": "8.21.3",
-		"lucide-react": "0.513.0"
+		"lucide-react": "0.522.0"
 	},
 	"devDependencies": {
 		"@commonalityco/config-tsconfig": "0.0.1",
@@ -39,13 +39,13 @@
 		"@testing-library/jest-dom": "6.6.3",
 		"@testing-library/react": "16.3.0",
 		"@testing-library/user-event": "14.6.1",
-		"@types/react": "19.1.6",
+		"@types/react": "19.1.8",
 		"eslint-config-commonality": "0.0.13",
 		"react": "19.0.0",
 		"react-dom": "19.0.0",
 		"resize-observer-polyfill": "1.5.1",
 		"typescript": "5.8.3",
-		"vitest": "3.2.2"
+		"vitest": "3.2.4"
 	},
 	"peerDependencies": {
 		"@commonalityco/ui-core": "*",

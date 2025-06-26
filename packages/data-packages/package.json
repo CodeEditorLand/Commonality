@@ -31,7 +31,7 @@
 		"@commonalityco/config-tsconfig": "0.0.1",
 		"@commonalityco/types": "0.2.40",
 		"@types/fs-extra": "11.0.4",
-		"@types/node": "22.15.30",
+		"@types/node": "24.0.3",
 		"eslint-config-commonality": "0.0.13",
 		"typescript": "5.8.3"
 	},

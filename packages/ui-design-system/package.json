@@ -50,15 +50,15 @@
 		"class-variance-authority": "0.7.1",
 		"clsx": "2.1.1",
 		"cmdk": "1.1.1",
-		"react-hook-form": "7.57.0",
+		"react-hook-form": "7.58.1",
 		"react-select": "5.10.1",
 		"sonner": "2.0.5",
-		"tailwind-merge": "3.3.0"
+		"tailwind-merge": "3.3.1"
 	},
 	"devDependencies": {
 		"@commonalityco/config-tailwind": "0.2.40",
 		"@commonalityco/config-tsconfig": "0.0.1",
-		"@types/react": "19.1.6",
+		"@types/react": "19.1.8",
 		"eslint-config-commonality": "0.0.13",
 		"lucide-react": "0.317.0",
 		"react": "19.0.0",
