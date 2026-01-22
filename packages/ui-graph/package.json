@@ -52,7 +52,7 @@
     "cytoscape-dagre": "^2.5.0",
     "cytoscape-popper": "^2.0.0",
     "localforage": "^1.10.0",
-    "lodash-es": "^4.17.21",
+    "lodash-es": "^4.17.23",
     "xstate": "^4.38.2"
   },
   "repository": {
