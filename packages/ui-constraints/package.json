@@ -50,7 +50,7 @@
   },
   "dependencies": {
     "@xstate/react": "^3.2.2",
-    "lodash-es": "^4.17.21",
+    "lodash-es": "^4.17.23",
     "lucide-react": "^0.317.0",
     "react-resizable-panels": "^0.0.54"
   },
